@@ -19,10 +19,6 @@ class Solution:
 
 
 solution = Solution()
-# print(solution.minNumberOfHours(1,
-#                                 1,
-#                                 [1, 1, 1, 1],
-#                                 [1, 1, 1, 50]))
 print(solution.minNumberOfHours(5,
                                 3,
                                 [1,4,3,2],
