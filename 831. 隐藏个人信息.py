@@ -22,10 +22,29 @@ class Solution:
         return p[0] + '*****' + p[len(p) - 1] + "@" + a
 
     def maskPII(self, s: str) -> str:
-        if s.count("@") == 1:
+        if "@"in s:
             return self.email(s)
         return self.number(s)
 
 
 solution = Solution()
 print(solution.maskPII("86-(10)12345678"))
+
+# 执行结果：
+# 通过
+# 显示详情
+# 查看示例代码
+# 添加备注
+
+# 执行用时：
+# 28 ms
+# , 在所有 Python3 提交中击败了
+# 93.51%
+# 的用户
+# 内存消耗：
+# 14.9 MB
+# , 在所有 Python3 提交中击败了
+# 66.23%
+# 的用户
+# 通过测试用例：
+# 66 / 66
